@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <title>Birthday Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Enter date of birth</h3> <lord-icon
+        src="https://cdn.lordicon.com/aglnhnlw.json"
+        trigger="hover"
+        colors="outline:#121331,primary:#f24c00,secondary:#ffc738,tertiary:#ebe6ef"
+        state="hover-1"
+        style="width:60px;height:60px">
+    </lord-icon>
+      
+
+    <div class="enter-section">
+       <div class="title-input">
+         <span>Date Of Birth</span>
+         <span>Given Date</span>
+       </div>
+
+       <div class="input-section">
+         <input type="date" id="date-input">
+         <input type="date" id="given-input">
+       </div>
+
+       <button onclick="claculateDate()" >Calculate</button>
+
+    </div>
+    
+        <div class="result">
+            <div class="title">
+               <span>Years</span>
+               <small class="years" >-</small>
+            </div>
+
+            <div class="title">
+                <span>Months</span>
+                <small class="month">-</small>
+             </div>
+
+             <div class="title">
+                <span>Days</span>
+                <small class="days">-</small>
+             </div>
+
+        </div>
+
+    </div>
+ <script src="index.js"></script>   
+</body>
+</html>
